@@ -53,8 +53,8 @@ public class HW3 extends JFrame {
 	private JTextField criticsRatingValueTextField;
 	private static HW3 frame;
 	private String url = "jdbc:oracle:thin:@localhost:1521:XE";
-	private String user = "system";
-	private String password = "oracle";
+	private String user = "*****";
+	private String password = "*****";
 	private Connection connection;
 
 	private String query = "";
