@@ -22,8 +22,8 @@ import java.util.logging.Logger;
 public class Populate {
 	private static final String DRIVER = "oracle.jdbc.driver.OracleDriver";
 	private static final String CONNECTION = "jdbc:oracle:thin:@localhost:1521:XE";
-	private static final String USER = "system";
-	private static final String PASSWORD = "oracle";
+	private static final String USER = "******";
+	private static final String PASSWORD = "******";
 	private static Connection dbConnection = null;
 	private static PreparedStatement ps = null;
 	private static BufferedReader br = null;
